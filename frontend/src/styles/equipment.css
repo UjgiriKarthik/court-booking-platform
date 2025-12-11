@@ -1,0 +1,56 @@
+.equip-wrapper {
+  max-width: 950px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.equip-title {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.equip-empty {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}
+
+.equip-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.equip-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid #eee;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+
+  transition: 0.2s ease-in-out;
+}
+
+.equip-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.equip-name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.equip-price {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.equip-meta {
+  font-size: 14px;
+  color: #555;
+}

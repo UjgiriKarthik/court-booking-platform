@@ -1,0 +1,111 @@
+/* Wrapper layout */
+.booking-wrapper {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px;
+}
+
+/* Back button */
+.back-btn {
+  padding: 8px 14px;
+  background: #e5e7eb;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 15px;
+}
+.back-btn:hover {
+  background: #d4d4d4;
+}
+
+/* Page heading */
+.booking-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+/* Two-column grid layout */
+.booking-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+/* Card style for both form & history */
+.booking-card {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 3px 12px;
+}
+
+/* Form elements */
+.booking-select,
+.booking-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  margin-bottom: 12px;
+  transition: 0.2s ease;
+}
+
+.booking-select:focus,
+.booking-input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
+}
+
+/* Equipment row */
+.equip-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+/* Quote box */
+.quote-box {
+  background: #f8fafc;
+  padding: 16px;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+/* Book button */
+.book-btn {
+  padding: 12px;
+  width: 100%;
+  background: #007bff;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+  transition: 0.2s;
+}
+.book-btn:hover {
+  background: #005fcc;
+}
+
+/* Booking History */
+.history-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.history-item {
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+.history-item:hover {
+  background: #f8fafc;
+}

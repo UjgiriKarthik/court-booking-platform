@@ -1,0 +1,59 @@
+.coach-wrapper {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.coach-title {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.coach-empty {
+  text-align: center;
+  color: #666;
+  padding: 20px;
+}
+
+.coach-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.coach-card {
+  background: #fff;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border: 1px solid #eee;
+  transition: 0.25s ease-in-out;
+}
+
+.coach-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+.coach-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.coach-rate {
+  background: #2563eb;
+  color: white;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.coach-meta {
+  font-size: 14px;
+  margin-bottom: 6px;
+}

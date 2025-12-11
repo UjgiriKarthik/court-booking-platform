@@ -1,0 +1,78 @@
+.admin-wrapper {
+  max-width: 950px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+/* Main Title */
+.admin-title {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+/* Background Section Box */
+.section-box {
+  background: #ffffff;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+
+  /* Stronger, smoother shadow */
+  box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+  border: 1px solid #f1f1f1;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-left: 5px;
+}
+
+/* No courts text */
+.no-data {
+  padding: 20px;
+  text-align: center;
+  color: gray;
+  font-size: 15px;
+}
+
+/* Cards grid (2 per row always) */
+.court-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* Individual Court Card */
+.court-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid #e8e8e8;
+
+  /* stronger card shadow */
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.court-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.15);
+}
+
+/* Text inside card */
+.court-name {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.court-detail {
+  font-size: 15px;
+  margin-bottom: 8px;
+}

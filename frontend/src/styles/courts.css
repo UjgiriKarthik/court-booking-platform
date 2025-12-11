@@ -1,0 +1,86 @@
+/* Container */
+.courts-page-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+/* Main title */
+.courts-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+/* Section titles (Indoor / Outdoor) */
+.section-title {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #007bff;
+  text-align: center;
+}
+
+/* 2 cards per row, centered */
+.courts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  justify-content: center;     /* center the 2 cards */
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+/* Card style */
+.court-card {
+  background: #f9fafe;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+  transition: 0.2s ease-in-out;
+  border-left: 5px solid #007bff;
+}
+
+.court-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.court-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.court-type {
+  color: gray;
+  margin-bottom: 15px;
+}
+
+/* Book button */
+.book-btn {
+  display: inline-block;
+  width:20px;
+  padding: 10px 16px;
+  background: #007bff;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.book-btn:hover {
+  background: #005fcc;
+}
+
+/* Mobile responsive */
+@media (max-width: 700px) {
+  .courts-grid {
+    grid-template-columns: 1fr;
+  }
+}

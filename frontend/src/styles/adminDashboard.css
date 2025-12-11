@@ -1,0 +1,115 @@
+.dashboard-wrapper {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+/* Title */
+.dashboard-title {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Add Rule Section */
+.add-box {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 18px;
+  border: 1px solid #eaeaea;
+
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  margin-bottom: 35px;
+}
+
+.add-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  margin-bottom: 15px;
+
+  transition: border 0.2s ease;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.add-btn {
+  padding: 12px;
+  background: #2563eb;
+  color: #fff;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.add-btn:hover {
+  background: #1d4ed8;
+}
+
+/* Rules Section */
+.rules-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.rule-card {
+  background: white;
+  padding: 18px;
+  border-radius: 14px;
+  border: 1px solid #ececec;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.rule-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.10);
+}
+
+/* Rule Text */
+.rule-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.rule-info {
+  font-size: 14px;
+  color: #555;
+  margin-top: 4px;
+}
+
+/* Delete Button */
+.delete-btn {
+  background: #ef4444;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
